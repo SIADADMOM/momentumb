@@ -1,0 +1,27 @@
+.hidden {
+  display: none;
+}
+
+
+body {
+  background-size: cover;
+  background-position: center center;
+  background-image: url("img/${chosenImage}");
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
